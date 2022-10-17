@@ -1,0 +1,95 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+.nav1{
+  width: 97%;
+}
+.nav2{
+    width: 3%;
+}
+.menu-items{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+.banner{
+    width: 100%;
+    height: fit-content;
+}
+header img{
+    width: 100%;
+}
+nav ul li {
+    box-sizing: border-box;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.contenedor-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-f div img{
+    padding: 10%;
+    width: 93%;
+}
+.banner2{
+    width: 100%;
+}
+footer{
+    background-color: rgb(22, 21, 21);
+    height: 320px;
+}
+hr{
+    color: gray;
+}
+.flexb{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    font-size: 17px;
+    color: gray;
+}
+footer h1{
+    font-size: 28px;
+    color:gray;
+    text-transform: uppercase;
+}
+.iconos{
+    width: 6%;
+}
+
+
